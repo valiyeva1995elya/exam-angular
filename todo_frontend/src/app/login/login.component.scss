@@ -1,0 +1,61 @@
+.login {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 50px;
+  margin-top: 30px;
+}
+
+.login_list {
+  display: flex;
+  list-style: none;
+}
+
+.login_code {
+  font-size: 30px;
+  color: rgb(165, 3, 84);
+  font-family: 'Dancing Script', cursive;
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+
+.login_list li {
+  margin-right: 10px;
+}
+
+
+h3{
+  font-size: 40px;
+  font-family: 'Dancing Script', cursive;
+  color: rgb(165, 3, 84);
+  text-align: center;
+  margin-top: 50px;
+}
+hr{
+  border: 1px solid rgb(165, 3, 84);
+  width: 500px;
+  margin: 0 auto;
+  
+}
+.btn{
+  font-size: 25px;
+  width: 50px;
+  height: 50px;
+  background-color: rgb(165, 3, 84);
+  border-radius: 5px;
+  cursor: pointer;
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+  font-family: 'Dancing Script', cursive;
+}
+.btn:active{
+  border: 3px solid rgb(121, 3, 62);
+  box-shadow: 2px 2px 15px gray;
+  transform: 1s;
+  
+ }
+ .btn-bg{
+  width: 100px;
+ }

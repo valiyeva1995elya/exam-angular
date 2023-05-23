@@ -1,0 +1,11 @@
+
+<div class="flex">
+
+  <h3>Counter:</h3>
+  <div class="block-count">
+    <button (click)="onDecrementClick()">{{ decClicks$$ | async }}</button>
+    <span class="num" style="color:{{ isCounterColor$$ | async }}">{{ counter$$ | async }}</span>
+    <button (click)="onIncrementClick()">{{ incClicks$$ | async }}</button>
+  </div>
+</div>
+<hr />

@@ -1,0 +1,17 @@
+<div class="block" >
+  <div class="modal-block">
+    <h2>Todo Details</h2>
+    
+    <form [formGroup]="todoForm">
+      <label class="text" for='hero-name'>Todo text: </label>
+      <input id="todo-text" type="text" formControlName="text" placeholder="Введите текст" placeholder='name'>
+    </form>
+    <div class="block-btn">
+
+      <button (click)="updateTodo()">Save</button>
+      <!-- <button (click)="closeWind()">Cancel</button> -->
+    </div>
+  </div>
+</div>
+
+

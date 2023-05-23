@@ -1,0 +1,30 @@
+<div class="m-2 block-task">
+  <p><b>Задача 03</b></p>
+  <br />
+  <p>Все то же самое что и в задании 2, только randomNumber должен получаться с сервера:</p>
+  <p><code>GET http://localhost:3000/randomNumber</code></p>
+  <p>На момент получения данных с сервера кнопка "add random number" должна быть задизейблена</p>
+</div>
+
+<div class="m-2 flex">
+  <button (click)="onClick()" [disabled]="isLoading$$ | async">Add random number</button>
+</div>
+
+<div class="m-2 row flex">
+  <div class="col col-3">
+    <p><b> Numbers in collection: </b></p>
+    <p *ngFor="let item of randomNumbers$$ | async">{{ item }}</p>
+  </div>
+
+  <div class="col col-3" style="color: black">
+    <p>Statistics: (вторая часть задачи)</p>
+    <p>Count: {{ countOfNumbers$$ | async }}</p>
+    <p>Min: {{ minOfAllNumbers$$ | async }}</p>
+    <p>Max: {{ maxOfAllNumbers$$ | async }}</p>
+    <p>Average: {{ averageNumber$$ | async }}</p>
+  </div>
+</div>
+<div class="flex">
+
+  <button class="btn-back" routerLink='/tasks'>Back</button>
+</div>

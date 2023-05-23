@@ -1,0 +1,59 @@
+p {
+
+    font-size: 20px;
+    font-family: 'Dancing Script', cursive;
+    color: rgb(165, 3, 84);
+    text-align: justify;
+    font-family: 'Marck Script', cursive;
+   padding: 5% 10%;
+}
+
+b {
+    font-size: 25px;
+    
+}
+
+.block-task {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+button {
+    font-size: 25px;
+    width: 30px;
+    height: 30px;
+    background-color: rgb(165, 3, 84);
+    border-radius: 5px;
+    cursor: pointer;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Dancing Script', cursive;
+}
+
+button:active {
+    border: 3px solid rgb(121, 3, 62);
+    box-shadow: 2px 2px 15px gray;
+    transform: 1s;
+
+}
+
+.alert {
+    font-size: 20px;
+    font-family: 'Dancing Script', cursive;
+    color: rgb(165, 3, 84);
+    font-weight: bold;
+}
+.ta-c{
+    text-align: center;
+}
+.btn-back{
+
+    width: 100px;
+}
+.flex{
+    display: flex;
+    justify-content: center;
+}

@@ -1,0 +1,12 @@
+<div class="add-input">
+  <form [formGroup]="todoForm" (submit)="onSubmit()" class="add-input">
+    <div class="flex">
+
+      <input class="input" type="text" id="value" name="value" formControlName="value" />
+      <input class="checkbox" type="checkbox"  name="checkbox" formControlName="checkbox" />
+    </div>
+   
+    <button  type="submit">Add Item</button><br />
+  </form>
+  <button (click)="getAllTodos()">Get All Todos</button>
+</div>

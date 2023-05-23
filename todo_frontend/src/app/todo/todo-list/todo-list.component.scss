@@ -1,0 +1,53 @@
+.todo{
+  display: flex;
+  gap: 20px;
+  border-bottom: 3px solid rgb(165, 3, 84);
+  margin-top: 30px;
+  
+ 
+  
+}
+span{
+  font-size: 25px;
+  color: rgb(165, 3, 84);
+  font-family: 'Dancing Script', cursive;
+}
+.todo_span{
+  padding: 4px;
+  cursor: pointer;
+}
+
+.todo_input{
+
+}
+.todo-list{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+}
+button{
+  width: 30px;
+  height: 30px;
+  border: none;
+  background-color: rgb(165, 3, 84);
+  border-radius: 5px;
+  cursor: pointer;
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+}
+.todo_input{
+  margin-left: 10px;
+  height: 30px;
+  width: 30px;
+  margin-bottom: 20px;
+}
+.modal-block{
+  position: absolute;
+  width: 100%;
+  height: 100vh;
+  top: 0;
+
+}

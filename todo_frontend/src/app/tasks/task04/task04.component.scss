@@ -1,0 +1,88 @@
+.block-task {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 5% 10%;
+}
+
+p,li {
+
+  font-size: 20px;
+  font-family: 'Dancing Script', cursive;
+  color: rgb(165, 3, 84);
+  text-align: justify;
+  font-family: 'Marck Script', cursive;
+ 
+}
+
+
+b {
+  font-size: 25px;
+}
+button {
+  font-size: 25px;
+  width: 200px;
+  height: 35px;
+  background-color: rgb(165, 3, 84);
+  border-radius: 5px;
+  cursor: pointer;
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+  font-family: 'Dancing Script', cursive;
+  margin-top: -30px;
+}
+
+button:active {
+  border: 3px solid rgb(121, 3, 62);
+  box-shadow: 2px 2px 15px gray;
+  transform: 1s;
+
+}
+
+.game-buttons button {
+  margin: 0.5em;
+}
+
+
+.aria-wrapper{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#area{
+  width: 300px;
+  height: 300px;
+  background-color: rgb(239, 114, 235);
+  display: flex;
+  flex-wrap: wrap;
+  cursor: pointer;
+}
+
+.box{
+  width: 100px;
+  height: 100px;
+  border: 1px solid black;
+  box-sizing: border-box;
+  font-size: 34px;
+  color: brown;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+.flex{
+  display: flex;
+  justify-content: center;
+}
+.btn-back{
+  margin-top: 5px;
+    width: 100px;
+}
+.flex{
+    display: flex;
+    justify-content: center;
+}
